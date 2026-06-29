@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="400" height="300" rx="16" fill="#F0FDF4" stroke="#86EFAC" stroke-width="2" />
+
+  <!-- Clean Gray Door Bellows Rubber Seal -->
+  <circle cx="200" cy="150" r="95" fill="none" stroke="#94A3B8" stroke-width="24" opacity="0.9" />
+  
+  <!-- Outer metallic door frame behind bellows -->
+  <circle cx="200" cy="150" r="109" fill="none" stroke="#E2E8F0" stroke-width="4" opacity="0.9" />
+
+  <!-- Inner rib design lines on bellows (clean, concentric shadows) -->
+  <circle cx="200" cy="150" r="101" fill="none" stroke="#64748B" stroke-width="1.5" opacity="0.3" />
+  <circle cx="200" cy="150" r="89" fill="none" stroke="#64748B" stroke-width="1.5" opacity="0.3" />
+
+  <!-- Clean surface shine effects -->
+  <path d="M 125,95 A 95,95 0 0,1 275,95" fill="none" stroke="#FFFFFF" stroke-width="3" opacity="0.5" stroke-linecap="round" />
+  <path d="M 135,205 A 95,95 0 0,0 265,205" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.3" stroke-linecap="round" />
+
+  <!-- Sparkling stars (indicating sterile state) -->
+  <path d="M 240,210 L 242,214 L 246,216 L 242,218 L 240,222 L 238,218 L 234,216 L 238,214 Z" fill="#34D399" />
+  <path d="M 150,110 L 151,112 L 153,113 L 151,114 L 150,116 L 149,114 L 147,113 L 149,112 Z" fill="#34D399" />
+
+  <!-- Label -->
+  <rect x="20" y="20" width="120" height="26" rx="6" fill="#10B981" />
+  <text x="80" y="37" fill="#FFFFFF" font-family="sans-serif" font-weight="bold" font-size="11" text-anchor="middle">✓ STERILE &amp; NEW</text>
+</svg>

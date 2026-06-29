@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:ital,wght@0,400..700;1,400..700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Lora", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-natural-bg: #FAF9F6;
+  --color-natural-text: #2D332D;
+  --color-natural-sage: #7A9E7E;
+  --color-natural-sage-hover: #688A6C;
+  --color-natural-dark-sage: #4A5D4A;
+  --color-natural-brown: #A37B5C;
+  --color-natural-cream: #E5E2D9;
+  --color-natural-sand: #F1EDE4;
+  --color-natural-sand-light: #F2EFE9;
+  --color-natural-warm-white: #FFF9F5;
+  --color-natural-light-green: #F5F9F6;
+}
+
+html, body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-natural-bg);
+  color: var(--color-natural-text);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+  color: var(--color-natural-dark-sage);
+}
+
+

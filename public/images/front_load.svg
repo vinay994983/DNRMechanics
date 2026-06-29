@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bodyGradFront" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EBEFEB" />
+      <stop offset="100%" stop-color="#BFC7BF" />
+    </linearGradient>
+    <linearGradient id="drumGlass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.2" />
+      <stop offset="50%" stop-color="#1D4ED8" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#1E3A8A" stop-opacity="0.75" />
+    </linearGradient>
+    <linearGradient id="chromeRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F2F4F2" />
+      <stop offset="25%" stop-color="#707A70" />
+      <stop offset="50%" stop-color="#FFFFFF" />
+      <stop offset="75%" stop-color="#5C665C" />
+      <stop offset="100%" stop-color="#CBD5E1" />
+    </linearGradient>
+    <linearGradient id="panelGradFront" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1F2937" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background container -->
+  <rect width="400" height="400" rx="20" fill="#F4F6F4" />
+  
+  <!-- Outer Shadow -->
+  <rect x="70" y="60" width="260" height="300" rx="20" fill="#000000" opacity="0.08" transform="translate(0, 12)" />
+
+  <!-- Main Machine Body -->
+  <rect x="70" y="60" width="260" height="300" rx="20" fill="url(#bodyGradFront)" stroke="#8F9A8F" stroke-width="3" />
+  
+  <!-- Top Control Panel Panel -->
+  <rect x="82" y="72" width="236" height="55" rx="8" fill="url(#panelGradFront)" stroke="#111827" stroke-width="1.5" />
+  
+  <!-- LED panel -->
+  <rect x="180" y="85" width="60" height="28" rx="4" fill="#030712" />
+  <text x="210" y="104" fill="#60A5FA" font-family="monospace" font-size="14" font-weight="bold" text-anchor="middle">1:24</text>
+  
+  <!-- Tiny buttons -->
+  <circle cx="258" cy="99" r="3" fill="#9CA3AF" />
+  <circle cx="268" cy="99" r="3" fill="#9CA3AF" />
+  <circle cx="278" cy="99" r="3" fill="#9CA3AF" />
+  <circle cx="288" cy="99" r="3" fill="#10B981" /> <!-- Green Play/Pause -->
+  
+  <!-- Knob -->
+  <circle cx="125" cy="99" r="16" fill="url(#chromeRing)" stroke="#111827" stroke-width="1.5" />
+  <circle cx="125" cy="99" r="6" fill="#1F2937" />
+  <line x1="125" y1="99" x2="125" y2="86" stroke="#EF4444" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Soap Drawer Line -->
+  <line x1="156" y1="72" x2="156" y2="127" stroke="#374151" stroke-width="1.5" />
+  <rect x="92" y="85" width="12" height="6" rx="1" fill="#4B5563" />
+
+  <!-- Front Load Circular Door Structure -->
+  <circle cx="200" cy="235" r="95" fill="none" stroke="#6B7280" stroke-width="1" opacity="0.4" />
+  
+  <!-- Chrome Door Outer Ring -->
+  <circle cx="200" cy="235" r="85" fill="none" stroke="url(#chromeRing)" stroke-width="14" />
+  
+  <!-- Glass Window Inner -->
+  <circle cx="200" cy="235" r="71" fill="url(#drumGlass)" stroke="#1E40AF" stroke-width="1.5" />
+  
+  <!-- Stainless Steel Drum details inside -->
+  <circle cx="200" cy="235" r="58" fill="none" stroke="#FFFFFF" stroke-dasharray="4 8" stroke-width="3" opacity="0.3" />
+  <path d="M 155,200 Q 200,210 245,200" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.25" />
+  <path d="M 145,240 Q 200,260 255,240" fill="none" stroke="#60A5FA" stroke-width="5" stroke-linecap="round" opacity="0.6" />
+  <path d="M 160,255 Q 200,270 240,255" fill="none" stroke="#3B82F6" stroke-width="6" stroke-linecap="round" opacity="0.8" />
+  
+  <!-- Door Handle Grip -->
+  <rect x="272" y="210" width="8" height="50" rx="4" fill="url(#chromeRing)" stroke="#4B5563" stroke-width="1" />
+  
+  <!-- Water drainage filter door at bottom -->
+  <rect x="255" y="325" width="28" height="20" rx="3" fill="none" stroke="#8F9A8F" stroke-width="1.5" />
+  <line x1="275" y1="335" x2="280" y2="335" stroke="#8F9A8F" stroke-width="1.5" />
+
+  <!-- Bottom Legs -->
+  <rect x="90" y="360" width="20" height="8" rx="2" fill="#374151" />
+  <rect x="290" y="360" width="20" height="8" rx="2" fill="#374151" />
+  
+  <!-- Brand text -->
+  <text x="200" y="50" fill="#4A554A" font-family="sans-serif" font-size="14" font-weight="bold" letter-spacing="1" text-anchor="middle">HYDRO-MAX</text>
+</svg>

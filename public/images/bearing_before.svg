@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="400" height="300" rx="16" fill="#FEF2F2" stroke="#FCA5A5" stroke-width="2" />
+
+  <!-- Outer Ring of bearing -->
+  <circle cx="200" cy="150" r="90" fill="none" stroke="#78716C" stroke-width="14" />
+  <circle cx="200" cy="150" r="90" fill="none" stroke="#451A03" stroke-width="4" opacity="0.3" />
+
+  <!-- Inner Ring of bearing -->
+  <circle cx="200" cy="150" r="45" fill="#44403C" stroke="#1C1917" stroke-width="3" />
+  <circle cx="200" cy="150" r="32" fill="#FEF2F2" stroke="#44403C" stroke-width="3" />
+
+  <!-- Rusty, damaged ball bearings inside (visible because seal is blown/gone) -->
+  <!-- We place ball circles and overlay rust -->
+  <g stroke="#292524" stroke-width="1.5">
+    <circle cx="200" cy="82" r="11" fill="#78350F" />
+    <circle cx="248" cy="102" r="11" fill="#78350F" />
+    <circle cx="268" cy="150" r="11" fill="#78350F" />
+    <circle cx="248" cy="198" r="11" fill="#78350F" />
+    <circle cx="200" cy="218" r="11" fill="#78350F" />
+    <circle cx="152" cy="198" r="11" fill="#78350F" />
+    <circle cx="132" cy="150" r="11" fill="#78350F" />
+    <circle cx="152" cy="102" r="11" fill="#78350F" />
+  </g>
+
+  <!-- Rust stains and dripping brown mud water -->
+  <path d="M 190,150 L 190,260 Q 200,270 210,260 L 210,150 Z" fill="#9A3412" opacity="0.7" />
+  <path d="M 140,180 L 110,230 Q 115,235 125,230 L 155,185 Z" fill="#9A3412" opacity="0.6" />
+  <path d="M 250,180 L 280,240 Q 290,242 292,235 L 260,175 Z" fill="#9A3412" opacity="0.6" />
+
+  <circle cx="200" cy="82" r="7" fill="#B45309" opacity="0.9" />
+  <circle cx="268" cy="150" r="7" fill="#B45309" opacity="0.9" />
+  <circle cx="132" cy="150" r="7" fill="#B45309" opacity="0.9" />
+
+  <!-- Grimy/black sludge around ball cage -->
+  <circle cx="200" cy="150" r="68" fill="none" stroke="#1C1917" stroke-width="12" stroke-dasharray="10 14" opacity="0.85" />
+
+  <!-- Label -->
+  <rect x="20" y="20" width="130" height="26" rx="6" fill="#EF4444" />
+  <text x="85" y="37" fill="#FFFFFF" font-family="sans-serif" font-weight="bold" font-size="11" text-anchor="middle">❌ BLOWN &amp; RUSTED</text>
+</svg>

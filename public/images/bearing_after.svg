@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="steelRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2E8F0" />
+      <stop offset="30%" stop-color="#94A3B8" />
+      <stop offset="70%" stop-color="#475569" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+    <linearGradient id="blueSeal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="50%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#1E3A8A" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="300" rx="16" fill="#F0FDF4" stroke="#86EFAC" stroke-width="2" />
+
+  <!-- Outer Ring of bearing (Polished Chrome Steel) -->
+  <circle cx="200" cy="150" r="90" fill="none" stroke="url(#steelRing)" stroke-width="15" />
+  
+  <!-- Inner Ring of bearing -->
+  <circle cx="200" cy="150" r="45" fill="none" stroke="url(#steelRing)" stroke-width="12" />
+
+  <!-- Premium High-performance Watertight Blue Rubber Seal (Completely covering balls) -->
+  <circle cx="200" cy="150" r="68" fill="none" stroke="url(#blueSeal)" stroke-width="26" />
+  
+  <!-- Groove markings on the synthetic rubber seal -->
+  <circle cx="200" cy="150" r="76" fill="none" stroke="#0284C7" stroke-width="1.5" opacity="0.6" />
+  <circle cx="200" cy="150" r="60" fill="none" stroke="#0284C7" stroke-width="1.5" opacity="0.6" />
+  
+  <!-- Sleek metallic shine overlay on the outer steel ring -->
+  <path d="M 120,95 A 90,90 0 0,1 280,95" fill="none" stroke="#FFFFFF" stroke-width="3" opacity="0.4" />
+  <path d="M 175,125 A 45,45 0 0,1 225,125" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.4" />
+
+  <!-- Brand logo printed on the seal -->
+  <text x="200" y="145" fill="#E0F2FE" font-family="sans-serif" font-weight="bold" font-size="9" text-anchor="middle" letter-spacing="0.5">SKF PREMIUM</text>
+  <text x="200" y="158" fill="#93C5FD" font-family="sans-serif" font-weight="bold" font-size="8" text-anchor="middle" letter-spacing="0.5">2RS1 SEALED</text>
+
+  <!-- Success Status Indicator -->
+  <rect x="20" y="20" width="120" height="26" rx="6" fill="#10B981" />
+  <text x="80" y="37" fill="#FFFFFF" font-family="sans-serif" font-weight="bold" font-size="11" text-anchor="middle">✓ SKF DOUBLE SEAL</text>
+</svg>

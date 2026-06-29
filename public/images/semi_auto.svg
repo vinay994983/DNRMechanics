@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="twinBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAFAFA" />
+      <stop offset="100%" stop-color="#E2E8F0" />
+    </linearGradient>
+    <linearGradient id="accentBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#0EA5E9" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background container -->
+  <rect width="400" height="400" rx="20" fill="#F4F6F4" />
+  
+  <!-- Outer Shadow -->
+  <rect x="50" y="80" width="300" height="260" rx="16" fill="#000000" opacity="0.08" transform="translate(0, 10)" />
+
+  <!-- Twin Tub Machine Body -->
+  <rect x="50" y="80" width="300" height="260" rx="16" fill="url(#twinBody)" stroke="#94A3B8" stroke-width="2.5" />
+  
+  <!-- Blue Header Console -->
+  <path d="M 50,96 C 50,88 58,80 66,80 L 334,80 C 342,80 350,88 350,96 L 350,140 L 50,140 Z" fill="url(#accentBlue)" stroke="#0284C7" stroke-width="1" />
+  
+  <!-- Control Dials -->
+  <circle cx="100" cy="110" r="14" fill="#FFFFFF" stroke="#0369A1" stroke-width="2" />
+  <line x1="100" y1="110" x2="100" y2="98" stroke="#0EA5E9" stroke-width="3" stroke-linecap="round" />
+  <text x="100" y="134" fill="#F0F9FF" font-family="sans-serif" font-size="9" text-anchor="middle">WASH TIMER</text>
+
+  <circle cx="170" cy="110" r="14" fill="#FFFFFF" stroke="#0369A1" stroke-width="2" />
+  <line x1="170" y1="110" x2="178" y2="102" stroke="#0EA5E9" stroke-width="3" stroke-linecap="round" />
+  <text x="170" y="134" fill="#F0F9FF" font-family="sans-serif" font-size="9" text-anchor="middle">PROGRAM</text>
+
+  <circle cx="240" cy="110" r="14" fill="#FFFFFF" stroke="#0369A1" stroke-width="2" />
+  <line x1="240" y1="110" x2="232" y2="102" stroke="#0EA5E9" stroke-width="3" stroke-linecap="round" />
+  <text x="240" y="134" fill="#F0F9FF" font-family="sans-serif" font-size="9" text-anchor="middle">DRAIN SELECT</text>
+
+  <circle cx="310" cy="110" r="14" fill="#FFFFFF" stroke="#0369A1" stroke-width="2" />
+  <line x1="310" y1="110" x2="310" y2="122" stroke="#0EA5E9" stroke-width="3" stroke-linecap="round" />
+  <text x="310" y="134" fill="#F0F9FF" font-family="sans-serif" font-size="9" text-anchor="middle">SPIN TIMER</text>
+  
+  <!-- Division line between Wash Tub and Spin Dry Tub -->
+  <line x1="225" y1="140" x2="225" y2="340" stroke="#CBD5E1" stroke-dasharray="4 4" stroke-width="2" />
+
+  <!-- Wash Tub Lid Details (Left side) -->
+  <rect x="65" y="155" width="145" height="160" rx="8" fill="none" stroke="#94A3B8" stroke-width="2" />
+  <rect x="75" y="165" width="125" height="140" rx="4" fill="#E2E8F0" opacity="0.5" />
+  <!-- Water Swirl symbol in Wash Tub -->
+  <path d="M 137,235 A 25,25 0 0,1 112,210" fill="none" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" />
+  <path d="M 137,235 A 25,25 0 0,0 162,260" fill="none" stroke="#0284C7" stroke-width="3" stroke-linecap="round" />
+  <path d="M 112,210 A 25,25 0 0,1 137,185" fill="none" stroke="#0284C7" stroke-width="3" stroke-linecap="round" />
+
+  <!-- Spin Dry Tub Lid Details (Right side) -->
+  <rect x="240" y="155" width="95" height="160" rx="8" fill="none" stroke="#94A3B8" stroke-width="2" />
+  <circle cx="287" cy="235" r="35" fill="none" stroke="#94A3B8" stroke-dasharray="6 4" stroke-width="2" />
+  <circle cx="287" cy="235" r="20" fill="none" stroke="#475569" stroke-width="1.5" />
+  <circle cx="287" cy="235" r="5" fill="#475569" />
+
+  <!-- Brand details -->
+  <text x="200" y="60" fill="#475569" font-family="sans-serif" font-size="14" font-weight="bold" letter-spacing="1" text-anchor="middle">TWIN-DURA</text>
+  <text x="200" y="375" fill="#64748B" font-family="sans-serif" font-size="11" text-anchor="middle">HEAVY DUTY TWIN TUB SYSTEM</text>
+</svg>

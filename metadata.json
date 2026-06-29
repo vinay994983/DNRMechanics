@@ -1,0 +1,6 @@
+{
+  "name": "DNR Smart Service",
+  "description": "24/7 Doorstep Washing machine repair services for all brands with spare parts and covers in Hyderabad.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
