@@ -187,7 +187,7 @@ export default function Footer({ onNavigate }: FooterProps) {
         <div className="mt-12 pt-8 border-t border-natural-cream/20 text-center text-xs text-natural-bg/50 flex flex-col sm:flex-row justify-between items-center gap-4" id="footer-bottom">
           <p>© {currentYear} DNR Smart Service. All Rights Reserved.</p>
           <p className="text-[11px] text-[#FAF9F6]/80 font-medium">
-            Design and Developed By <span className="text-white font-semibold tracking-wide">Porendla Vinay Kumar</span>
+            Design and Developed By <span className="text-white font-semibold tracking-wide">P Vinay Kumar</span>
           </p>
           <p className="text-[10px] text-natural-bg/40 max-w-sm sm:text-right">
             Disclaimer: We are an independent multi-brand doorstep washing machine repair agency. Brand names are used for representative purposes only.
